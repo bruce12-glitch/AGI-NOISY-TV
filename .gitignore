@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+
+# Generated telemetry can be large. Compact summaries and figures are the
+# recommended committed evidence artifacts.
+results/raw/*.csv
+!results/raw/.gitkeep
+results/summary/*.csv
+!results/summary/.gitkeep
+figures/*.png
+figures/*.pdf
+paper/figures/*.png
+paper/figures/*.pdf

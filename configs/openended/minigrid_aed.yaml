@@ -1,0 +1,8 @@
+# Optional future extension. The tabular suite does not require MiniGrid.
+method: aed
+environment: minigrid
+seed: 0
+steps: 100000
+optional_dependencies:
+  - gymnasium
+  - minigrid

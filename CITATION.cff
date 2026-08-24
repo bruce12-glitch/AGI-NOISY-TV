@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "AED-Boredom-AGI: Aversive Epistemic Drive Framework"
+version: 0.1.0
+type: software
+authors:
+  - family-names: S
+    given-names: Inbasekaran
+keywords:
+  - artificial general intelligence
+  - intrinsic motivation
+  - boredom
+  - reinforcement learning
+  - active inference
+license: MIT
+repository-code: "https://github.com/bruce12-glitch/AGI-NOISY-TV"

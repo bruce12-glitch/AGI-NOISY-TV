@@ -1,0 +1,32 @@
+method: aed_high_threshold
+environment: stochastic_corridor
+seed: 0
+steps: 3000
+
+agent:
+  learning_rate: 0.2
+  discount_factor: 0.95
+  epsilon: 0.05
+
+aed:
+  alpha_learning_progress: 1.0
+  alpha_empowerment: 1.5
+  lambda_decay: 0.99
+  boredom_enabled: true
+  homeostatic_threshold: true
+  threshold_mu: 1.0
+  threshold_epsilon: 0.05
+  threshold_eta: 0.995
+  initial_tau: 0.3
+  minimum_tau: 0.25
+  boredom_max: 40.0
+
+mode_shift:
+  enabled: true
+  epsilon_boost: 0.6
+  duration: 40
+
+environment_config:
+  tv_vocab: 8
+  puzzle_mastery_steps: 5
+  puzzle_reward: 1.0

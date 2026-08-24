@@ -1,0 +1,15 @@
+method: extrinsic
+environment: stochastic_corridor
+seed: 0
+steps: 3000
+
+agent:
+  learning_rate: 0.2
+  discount_factor: 0.95
+  # Lower epsilon isolates delayed discovery from intrinsic TV attraction.
+  epsilon: 0.005
+
+environment_config:
+  tv_vocab: 8
+  puzzle_mastery_steps: 5
+  puzzle_reward: 1.0
