@@ -1,0 +1,11 @@
+comparison,metric,n,mean,bootstrap_ci95_low,bootstrap_ci95_high,reference,p_value
+aed,external_reward,20,2843.05,2808.3987500000003,2868.45,none,
+aed,escape_time,20,38.2,27.64875,48.80374999999998,none,
+curiosity,external_reward,20,1311.4,871.97625,1754.7474999999997,none,
+curiosity,escape_time,20,1688.2,1257.4575,2138.815,none,
+extrinsic,external_reward,20,2600.35,2475.29125,2714.355,none,
+extrinsic,escape_time,20,391.85,276.63124999999997,507.405,none,
+aed_vs_curiosity,external_reward,20,1531.65,,,curiosity,2.347632318877647e-06
+aed_vs_extrinsic,external_reward,20,242.70000000000027,,,extrinsic,0.0010594859373206484
+aed_vs_curiosity,escape_time,20,-1650.0,,,curiosity,8.568049401987718e-07
+aed_vs_extrinsic,escape_time,20,-353.65000000000003,,,extrinsic,1.6811194991527684e-05
